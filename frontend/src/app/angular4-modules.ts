@@ -219,6 +219,7 @@ import {WorkPackageTableHighlightingService} from "core-components/wp-fast-table
 import {ChartsModule} from "ng2-charts";
 import {WorkPackageEmbeddedGraphComponent} from "core-components/wp-table/embedded/wp-embedded-graph.component";
 import {WorkPackageByVersionGraphComponent} from "core-components/wp-by-version-graph/wp-by-version-graph.component";
+import {WorkPackagesCalendarComponent} from './components/routing/wp-calendar/wp.calendar.component';
 
 @NgModule({
   imports: [
@@ -332,6 +333,7 @@ import {WorkPackageByVersionGraphComponent} from "core-components/wp-by-version-
     ConfirmFormSubmitController,
     WorkPackagesBaseComponent,
     WorkPackagesListComponent,
+    WorkPackagesCalendarComponent,
     OpContextMenuTrigger,
     TablePaginationComponent,
     WorkPackageTablePaginationComponent,
@@ -498,6 +500,7 @@ import {WorkPackageByVersionGraphComponent} from "core-components/wp-by-version-
   entryComponents: [
     WorkPackagesBaseComponent,
     WorkPackagesListComponent,
+    WorkPackagesCalendarComponent,
     WorkPackageTablePaginationComponent,
     WorkPackagesTableController,
     TablePaginationComponent,
