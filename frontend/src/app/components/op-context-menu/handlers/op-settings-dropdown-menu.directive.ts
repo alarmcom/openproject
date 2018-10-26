@@ -116,7 +116,8 @@ export class OpSettingsMenuDirective extends OpContextMenuTrigger implements OnD
     return {
       my: 'right top',
       at: 'right bottom',
-      of: this.$element
+      of: this.$element,
+      collision: 'flipfit'
     };
   }
 

@@ -85,7 +85,8 @@ export class OpColumnsContextMenu extends OpContextMenuTrigger {
     return {
       my: 'left top',
       at: 'left bottom',
-      of: this.$element.find('.generic-table--sort-header-outer')
+      of: this.$element.find('.generic-table--sort-header-outer'),
+      collision: 'flipfit'
     };
   }
 

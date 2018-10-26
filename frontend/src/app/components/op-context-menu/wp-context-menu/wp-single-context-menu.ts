@@ -68,7 +68,8 @@ export class WorkPackageSingleContextMenuDirective extends OpContextMenuTrigger 
     return {
       my: 'right top',
       at: 'right bottom',
-      of: this.$element
+      of: this.$element,
+      collision: 'flipfit'
     };
   }
 

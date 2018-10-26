@@ -96,7 +96,8 @@ export class OpTypesContextMenuDirective extends OpContextMenuTrigger {
     return {
       my: 'left top',
       at: 'left bottom',
-      of: this.$element
+      of: this.$element,
+      collision: 'flipfit'
     };
   }
 
